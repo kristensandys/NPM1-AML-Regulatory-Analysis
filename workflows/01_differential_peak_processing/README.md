@@ -7,10 +7,13 @@ Research scripts used during my MSc internship to analyse differential H3K27ac C
 - [Workflow documentation](h3k27ac_differential_peak_analysis/README.md): analysis stages and the original execution record.
 - [Production scripts](h3k27ac_differential_peak_analysis/scripts): peak selection, local rGREAT annotation, candidate-gene filtering within 3 kb of a TSS, pooling, KEGG enrichment, pathway comparisons, plotting, and coordinate tracing.
 - [Validation documentation](test/TESTING.md) and validation scripts in `test/`.
+- [Example input](examples/): one differential-peak input table.
+- [Example figure](figures/): a representative analysis plot.
 
 ## Scope of this code release
 
-This copy includes code and documentation. Input data, metadata, generated tables, figures, archived script versions, and R session history are excluded. References to existing results and passed checks in the original documentation describe the author's prior runs; they do not mean those results are bundled here or that this copy has been rerun.
+This repository includes code, documentation, one example input table, and one representative figure. Other research inputs, metadata, generated results, archived script versions,
+and R session history are excluded. References to existing results and passed checks in the original documentation describe the author's prior runs; they do not mean those results are bundled here or that this copy has been rerun.
 
 ## Before running
 
